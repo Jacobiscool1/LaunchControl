@@ -74,5 +74,6 @@ function setMode(){
             status.innerText = 'PARK'
             break;
     
+            
     }
 }
