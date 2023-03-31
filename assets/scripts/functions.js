@@ -27,8 +27,8 @@ function parkBrake(){
 }
 function tractionControl() {
     if (traction == 0){
-        traction = 1;
-        document.getElementById('bttn_trac').src='./assets/images/bttn_trac1.PNG';
+        traction = 1;        
+        document.getElementById('bttn_trac').src='./assets/images/bttn_trac_1.PNG';
         document.getElementById('trac').src='./assets/images/trac1.PNG';
     }
     else {
